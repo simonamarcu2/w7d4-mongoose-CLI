@@ -1,0 +1,25 @@
+{
+  "name": "w7d4-mongoose-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonamarcu2/w7d4-mongoose-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonamarcu2/w7d4-mongoose-CLI/issues"
+  },
+  "homepage": "https://github.com/simonamarcu2/w7d4-mongoose-CLI#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.0",
+    "yargs": "^17.3.1"
+  }
+}

@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const filmSchema = mongoose.Schema({
     name:{
         type: String,
-        required:true,
+        require:true,
     },
     actor:{
         type: String,
@@ -12,4 +12,4 @@ const filmSchema = mongoose.Schema({
 })
 
 const FilmModel = mongoose.model('Movies', filmSchema)
-model.exports = FilmModel
+module.exports = FilmModel
